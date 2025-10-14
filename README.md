@@ -64,7 +64,7 @@ oder oder, falls du ein Demo-Skript in [./examples](./examples) hast:
 
 ## 🧾 Funktionsweise & Beispiel
 
-🔐 **Block**
+**🔐 Block**
 Ein Block enthält typischerweise:
 - Index
 - Zeitstempel
@@ -99,7 +99,7 @@ console.log("Nach Manipulation - gültig? " + myChain.isChainValid());
 ```
 ---
 
-##🎓 Lernaspekt & Hinweis
+## 🎓 Lernaspekt & Hinweis
 
 - Lehrprojekt: Diese Implementierung ist nicht für produktiven Einsatz gedacht
 - Einfachheit vor Sicherheit: Viele Sicherheitsmaßnahmen echter Blockchains (z. B. Proof of Work, Netzwerkkonsens, P2P, Mining) sind hier nicht enthalten
