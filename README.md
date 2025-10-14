@@ -56,9 +56,9 @@ BlockchainJS/
    ```
 
 oder oder, falls du ein Demo-Skript in [./examples](./examples) hast:
-  ```bash
-  node examples/demo.js
-  ```
+   ```bash
+   node examples/demo.js
+   ```
 
 ---
 
