@@ -16,7 +16,10 @@ Ziel ist es, die wesentlichen Mechanismen einer (sehr einfachen) Blockchain zu v
 - Blockstruktur und Hash-Berechnung  
 - Verkettung von Blöcken  
 - Validierung der gesamten Kette  
-- Demonstration von Manipulationsversuchen und deren Erkennung  
+- Demonstration von Manipulationsversuchen und deren Erkennung
+
+  <img width="2881" height="1561" alt="screencapture-file-C-Users-korel-Desktop-Coding-Blockhain-index-html-2025-10-14-10_20_29" src="https://github.com/user-attachments/assets/fca9da64-be55-4b3d-9b20-3fe47924cb45" />
+
 
 ---
 
