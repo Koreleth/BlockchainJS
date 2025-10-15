@@ -27,13 +27,21 @@ Ziel ist es, die wesentlichen Mechanismen einer (sehr einfachen) Blockchain zu v
 
 ```text
 BlockchainJS/
-├── src/ # Quellcode der Blockchain-Implementierung
-│ ├── Block.js
-│ ├── Blockchain.js
-│ └── index.js
-├── examples/ # Kleine Demo-Skripte zur Nutzung der Blockchain
-├── package.json
-└── README.md
+├── .vscode/                 # VS Code-Projektkonfigurationen
+│
+├── index.html               # Hauptseite der Anwendung (Frontend-Demo)
+├── style.css                # Stylesheet für die Benutzeroberfläche
+├── script.js                # Zentrale Skriptlogik (UI-Interaktionen, Blockchain-Start)
+├── chart.js                 # Darstellung der Blockchain-Daten (z. B. visuelle Diagramme)
+│
+├── block.class.js           # Definition der Block-Klasse (enthält Hash, Zeitstempel, etc.)
+├── blockchain.class.js      # Definition der Blockchain-Klasse (Verwaltung der Kette & Validierung)
+├── mining-node.class.js     # Simuliert einen Mining-Knoten, der neue Blöcke erstellt
+├── broadcaster.js           # Kommunikation zwischen mehreren Knoten (z. B. Netzwerk-Simulation)
+├── sha256.js                # Implementierung bzw. Import des SHA-256-Hashalgorithmus
+│
+└── README.md                # Projektdokumentation
+
 ```
 
 *(Passe diese Struktur bitte an dein tatsächliches Repo an, falls sie abweicht.)*
@@ -48,20 +56,7 @@ BlockchainJS/
    git clone https://github.com/Koreleth/BlockhainJS.git
    cd BlockhainJS
    ```
-2. **Dependencies installieren**
-   ```bash
-   npm install
-   ```
-
-3. **Beispiel starten**
-   ```bash
-   node src/index.js
-   ```
-
-oder oder, falls du ein Demo-Skript in [./examples](./examples) hast:
-   ```bash
-   node examples/demo.js
-   ```
+2. Öffne `index.html`.
 
 ---
 
